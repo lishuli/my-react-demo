@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import CanvasImg from "../pages/CanvasImg/index";
 import UseReducerPage from "../pages/UseReducerPage/index";
+import SagaPage from "../pages/SagaPage/index";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/useReducerPage",
     element: <UseReducerPage />,
+  },
+  {
+    path: "/sagaPage",
+    element: <SagaPage />,
   },
 ]);
 

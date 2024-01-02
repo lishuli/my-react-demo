@@ -8,6 +8,7 @@ function App() {
         <li className="nav-li">
           <Link to="/canvasImg">CanvasImg</Link>
           <Link to="/useReducerPage">UseReducerPage</Link>
+          <Link to="/sagaPage">SagaPage</Link>
         </li>
       </ul>
     </div>
